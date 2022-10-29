@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "classic-hunter"
+version = "0.1.0"
+description = "Application for collating and trending UK classic car prices"
+authors = ["Chris Amor"]
+readme = "README.md"
+packages = [{include = "classic_hunter"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.5.1"
+google-cloud-storage = "^2.5.0"
+jupyter = "^1.0.0"
+selenium = "^4.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
